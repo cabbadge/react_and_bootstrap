@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Nav, Row, Col, Tab } from "react-bootstrap";
-import firstImg from "../assets/first.jpeg";
-import secondImg from "../assets/second.jpeg";
+import firstImg from "../assets/forest.jpg";
+import secondImg from "../assets/thought.jpg";
 export default class About extends Component {
   render() {
     return (
