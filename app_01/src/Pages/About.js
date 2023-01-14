@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Nav, Row, Col, Tab } from "react-bootstrap";
 import firstImg from "../assets/forest.jpg";
-import secondImg from "../assets/thought.jpg";
+import secondImg from "../assets/second.jpeg";
 export default class About extends Component {
   render() {
     return (
@@ -30,7 +30,7 @@ export default class About extends Component {
             <Col sm={9}>
               <Tab.Content className="mt-3">
                 <Tab.Pane eventKey="first">
-                  <img src={firstImg} />
+                  <img src={firstImg} alt="first" />
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Enim dolore laudantium adipisci odio placeat eum sit sint
@@ -39,7 +39,7 @@ export default class About extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <img src={secondImg} />
+                  <img src={secondImg} alt="second" />
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Enim dolore laudantium adipisci odio placeat eum sit sint
@@ -48,7 +48,7 @@ export default class About extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <img src={firstImg} />
+                  <img src={firstImg} alt="first" />
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Enim dolore laudantium adipisci odio placeat eum sit sint
@@ -57,7 +57,7 @@ export default class About extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fourth">
-                  <img src={secondImg} />
+                  <img src={secondImg} alt="second" />
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Enim dolore laudantium adipisci odio placeat eum sit sint
@@ -66,7 +66,7 @@ export default class About extends Component {
                   </p>
                 </Tab.Pane>
                 <Tab.Pane eventKey="fifth">
-                  <img src={firstImg} />
+                  <img src={firstImg} alt="first" />
                   <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                     Enim dolore laudantium adipisci odio placeat eum sit sint
